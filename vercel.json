@@ -7,7 +7,7 @@
     "routes": [
         {
             "src" : "/img(.*)",
-            "dest" : "/public/img/"
+            "dest" : "/public/assets/img/"
         },
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
