@@ -6,8 +6,8 @@
     },
     "routes": [
         {
-            "src" : "*/css|js|img|fonts/(.*)",
-            "dist" : "/public/$1"
+            "src" : "/img(.*)",
+            "dest" : "/public/$1"
         },
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
