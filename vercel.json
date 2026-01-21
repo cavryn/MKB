@@ -5,7 +5,7 @@
         "api/index.php": { "runtime": "vercel-php@0.7.2" }
     },
     "routes": [
-        { "src": "/(css|js|images|fonts|favicon)/(.*)", "dest": "/public/$1/$2" },
+        { "src": "/(css|imag|favicon)/(.*)", "dest": "/public/$1/$2" },
         { "src": "/build/(.*)", "dest": "/public/build/" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
