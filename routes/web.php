@@ -17,12 +17,9 @@ Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
 Route::get('/products', [PageController::class, 'products'])->name('products');
 
-// Route untuk halaman listing
-Route::get('/papan-fiber-semen', function () {
-    return view('papan-fiber-semen');
-});
+Route::view('/produk/papan-fiber-semen', 'papan-fiber-semen')
+    ->name('produk.papan-fiber-semen');
 
-// Route untuk detail produk Papan Fiber Semen
 Route::get('/produk/kalsiboard-ling', function () {
     return view('partials.kalsiboard-ling');
 });
