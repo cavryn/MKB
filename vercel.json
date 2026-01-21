@@ -5,17 +5,17 @@
         "api/index.php": { "runtime": "vercel-php@0.7.2" }
     },
     "routes": [
-        { "src": "/(css|imag|favicon)/(.*)", "dest": "/public/$1/$2" },
-        { "src": "/build/(.*)", "dest": "/public/build/" },
+        { "src": "/(css|img|js|images|assets|favicon.ico)/(.*)", "dest": "/public/$1/$2" },
+        { "src": "/build/(.*)", "dest": "/public/build/$1" },
         { "src": "/(.*)", "dest": "/api/index.php" }
     ],
     "public": true,
-    "buildCommand": "vite build",
+    "buildCommand": "npm run build",
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "true",
-        "APP_URL": "",
+        "APP_DEBUG": "false",
+        "APP_URL": "https://your-domain.vercel.app",
         "APP_KEY": "base64:q/Nmcr822ABIDbA0O6mDrFlocV2pL39aAAuc1Vb7iqs=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
