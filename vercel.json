@@ -14,7 +14,7 @@
     "outputDirectory": "public",
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://katalog-mkb.vercel.app",
         "APP_KEY": "base64:q/Nmcr822ABIDbA0O6mDrFlocV2pL39aAAuc1Vb7iqs=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
