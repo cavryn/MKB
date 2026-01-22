@@ -15,7 +15,7 @@
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "true",
-        "APP_URL": "https://your-domain.vercel.app",
+        "APP_URL": "https://katalog-mkb.vercel.app",
         "APP_KEY": "base64:q/Nmcr822ABIDbA0O6mDrFlocV2pL39aAAuc1Vb7iqs=",
         "APP_CONFIG_CACHE": "/tmp/config.php",
         "APP_EVENTS_CACHE": "/tmp/events.php",
@@ -27,10 +27,10 @@
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "DB_CONNECTION": "mysql",
-        "DB_HOST": "sql304.infinityfree.com",
+        "DB_HOST": "sql12.freesqldatabase.com",
         "DB_PORT": "3306",
-        "DB_DATABASE": "if0_40954477_mega_karya_bersama",
-        "DB_USERNAME": "if0_40954477",
-        "DB_PASSWORD": "R3qNKFox8DMj"
+        "DB_DATABASE": "sql12814924",
+        "DB_USERNAME": "sql12814924",
+        "DB_PASSWORD": "Xqtm55Xdu5"
     }
 }
